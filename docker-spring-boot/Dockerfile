@@ -19,3 +19,6 @@ ENTRYPOINT ["java","-jar","app.jar"]
 # docker build -t spring-boot:1.0 .
 # docker run -d -p 8080:8080 -t spring-boot:1.0
 # access http://localhost:8080
+
+# cd D:\docker-samples\docker-java
+# docker build -t springboot:2.0 -f ./docker-spring-boot/Dockerfile ./docker-spring-boot
